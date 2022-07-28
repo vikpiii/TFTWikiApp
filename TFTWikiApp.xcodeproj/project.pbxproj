@@ -51,8 +51,8 @@
 		C7E8375F2892676E00209AA4 /* TFTWikiApp */ = {
 			isa = PBXGroup;
 			children = (
+				C7E8376E289269E300209AA4 /* View */,
 				C7E837602892676E00209AA4 /* TFTWikiAppApp.swift */,
-				C7E837622892676E00209AA4 /* ContentView.swift */,
 				C7E837642892676F00209AA4 /* Assets.xcassets */,
 				C7E837662892676F00209AA4 /* Preview Content */,
 			);
@@ -66,6 +66,15 @@
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
+		};
+		C7E8376E289269E300209AA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7E837622892676E00209AA4 /* ContentView.swift */,
+			);
+			name = View;
+			path = TFTWikiApp/View;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
